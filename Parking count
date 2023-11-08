@@ -1,0 +1,60 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int car=0;int ricksha=0; int bike=0;
+int enter;
+ cout<<" -----C A R P A R K I N G----"<<endl;
+while(true){
+  system("cls");
+
+  cout<<"Prese 1 : to enter car"<<endl;
+  cout<<"Prese 2 : to entr ricksha"<<endl;
+  cout<<"Prese 3 : to enter bike"<<endl;
+  cout<<"Prese 4 : to show the recods "<<endl;
+  cout<<"Prese 5 ; to delite the recods"<<endl;
+  cout<<"Prese 6 : to exti "<<endl;
+  cin>>enter;
+  //system("cls");
+
+
+  if(enter==1){
+car+=1;
+    
+
+  cout<<"Car is Enter"<<endl;
+  }
+  else if (enter==2){
+    
+
+    ricksha+=1;
+    
+
+    cout<<"Ricksha is Enter"<<endl;
+  }
+  else if (enter== 3){
+
+    bike+=1;
+    
+
+    cout<<"Bike is Enter"<<endl;
+  }
+  else if(enter ==4){
+ cout<<"Car = "<<car<<endl;
+ cout<<"Ricksha = "<<ricksha<<endl;
+ cout<<"Bike ="<<bike<<endl;
+  }
+  else if(enter==5){
+car=0;
+ricksha=0;
+  bike=0;
+  }
+  else if (enter==6){
+    exit(0);
+
+  }
+  else{
+    cout<<"Invalude value";
+  }
+}
+}
